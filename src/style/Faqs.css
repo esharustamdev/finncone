@@ -1,0 +1,158 @@
+.faqsDiv1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.faqsContainer {
+  margin: 160px;
+}
+.faqsHeading h1 {
+  color: #2c67b3;
+  padding-top: 10px;
+}
+.faqsDiv1 i {
+  font-size: 10px;
+}
+.faqsDiv1SubAns i {
+  font-size: 10px;
+}
+.faqsDiv2SubAns i {
+  font-size: 10px;
+}
+.faqsDiv3SubAns i {
+  font-size: 10px;
+}
+.faqsDiv4SubAns i {
+  font-size: 10px;
+}
+.faqsDiv5SubAns i {
+  font-size: 10px;
+}
+.faqsDiv6SubAns i {
+  font-size: 10px;
+}
+.faqsMain {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.faqsDiv1SubAns {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.faqsDiv1Sub {
+  display: none;
+}
+.faqsDiv1Sub.active {
+  display: block;
+}
+.faqsDiv1Sub p {
+  padding-top: 20px;
+}
+.faqsDiv1SubAns p {
+  color: #2c67b3;
+  font-weight: bold;
+}
+.faqsDiv2Sub p {
+  padding-top: 20px;
+}
+.faqsDiv2SubAns p {
+  color: #2c67b3;
+  font-weight: bold;
+}
+.faqsDiv3Sub p {
+  padding-top: 20px;
+}
+.faqsDiv3SubAns p {
+  color: #2c67b3;
+  font-weight: bold;
+}
+.faqsDiv4Sub p {
+  padding-top: 20px;
+}
+.faqsDiv4SubAns p {
+  color: #2c67b3;
+  font-weight: bold;
+}
+.faqsDiv5Sub p {
+  padding-top: 20px;
+}
+.faqsDiv5SubAns p {
+  color: #2c67b3;
+  font-weight: bold;
+}
+.faqsDiv6Sub p {
+  padding-top: 20px;
+}
+.faqsDiv6SubAns p {
+  color: #2c67b3;
+  font-weight: bold;
+}
+.faqsDiv2SubAns {
+  display: flex;
+  justify-content: space-between;
+}
+.faqsDiv2Sub {
+  display: none;
+}
+.faqsDiv2Sub.active {
+  display: block;
+}
+.faqsDiv3SubAns {
+  display: flex;
+  justify-content: space-between;
+}
+.faqsDiv3Sub {
+  display: none;
+}
+.faqsDiv3Sub.active {
+  display: block;
+}
+.faqsDiv4SubAns {
+  display: flex;
+  justify-content: space-between;
+}
+.faqsDiv4Sub {
+  display: none;
+}
+.faqsDiv4Sub.active {
+  display: block;
+}
+.faqsDiv5SubAns {
+  display: flex;
+  justify-content: space-between;
+}
+.faqsDiv5Sub {
+  display: none;
+}
+.faqsDiv5Sub.active {
+  display: block;
+}
+.faqsDiv6SubAns {
+  display: flex;
+  justify-content: space-between;
+}
+.faqsDiv6Sub {
+  display: none;
+}
+.faqsDiv6Sub.active {
+  display: block;
+}
+@media (max-width: 760px) {
+  .faqsContainer {
+    margin: 0px;
+    padding: 30px;
+  }
+  .faqsHeading h1 {
+    font-size: 3vw;
+  }
+  .faqsDiv1 p {
+  }
+}
+@media (max-width: 500px) {
+  .faqsDiv1 p {
+    font-size: 3vw;
+  }
+}

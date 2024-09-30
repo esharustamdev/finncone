@@ -1,0 +1,81 @@
+.introRight img {
+  width: 300px;
+}
+.introleftheading span {
+  color: #2c67b3;
+}
+.introleftheading h1 {
+  font-size: 45px;
+}
+.introleftPara {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.introleftPara p {
+  font-size: 20px;
+}
+.introleftButton button {
+  width: 170px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  background-color: #2c67b3;
+  border-radius: 10px;
+}
+.introductionCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+@media (max-width: 1150px) {
+  .introductionCont {
+    padding: 50px;
+  }
+  .introleftheading h1 {
+    font-size: 35px;
+  }
+  .introleftheading h1 {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 750px) {
+  .introductionCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+  }
+  .introleftheading h1 {
+    text-align: center;
+  }
+  .introleftButton {
+    text-align: center;
+  }
+  .introleftPara p {
+    text-align: center;
+  }
+  .introRight img {
+    width: 400px;
+  }
+}
+@media (max-width: 600px) {
+  .introleftheading h1 {
+    text-align: center;
+    font-size: 5vw;
+  }
+  .introleftPara p {
+    font-size: 2.5vw;
+  }
+  .introleftButton button {
+    width: 120px;
+    font-size: 3vw;
+    height: 10vw;
+  }
+  .introRight img {
+    width: 380px;
+  }
+}

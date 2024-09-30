@@ -1,0 +1,57 @@
+.categoryMain {
+  padding: 10px;
+}
+.mySwiper {
+  margin-left: 90px;
+  margin-top: 20px;
+  margin-right: 90px;
+}
+.cateDetail {
+  display: flex;
+  justify-content: space-between;
+}
+.cateDetail p {
+  color: #2c67b3;
+}
+.catHead h2 {
+  padding-top: 10px;
+}
+.catHead span {
+  font-weight: bold;
+}
+.cateContainer {
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.cateContainer span {
+  color: #2c67b3;
+}
+.cateContainer h1 {
+  padding-top: 10px;
+}
+@media (max-width: 750px) {
+  .cateContainer h2 {
+    font-size: 2.5vw;
+  }
+  .mySwiper {
+    width: 650px;
+    padding: 0;
+    margin: 0;
+  }
+  .cateContainer {
+    margin: 0px;
+    padding: 30px;
+  }
+  .cateDetail p {
+    font-size: 2vw;
+  }
+  .catHead h2 {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 600px) {
+  .mySwiper {
+    width: 500px;
+    padding: 20px;
+  }
+}
